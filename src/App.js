@@ -12,7 +12,7 @@ function App() {
       
       <Routes>
       <Route path="/" element={<Home />} />
-      {/* <Route path="pokemon/:pokeId" element={<Details />} /> */}
+      <Route path="pokemon/:pokeId" element={<Details />} />
       </Routes>
     </div>
   );
